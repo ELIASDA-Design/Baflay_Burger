@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "viner_hand_itc2";
+    src: url("../fonts/viner_hand_itc2.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "VLADIMIR";
+    src: url("../fonts/VLADIMIR.TTF") format("truetype");
+}
+
+body {
+    background-color: #000000;
+}
+
+
+header {
+    background-color: #EFCE48;
+    color: #000000;
+    font-family: "viner_hand_itc2";
+    font-weight: bolder;
+    font-size: 9vw;
+    width: 70%;
+    height: 15vw;
+
+}
+
+h1 {
+    font-family: VLADIMIR;
+    color: #EFCE48;
+    margin-bottom: -20px;
+    z-index: 2;
+}
+
+div.container-fluid {
+    padding-left: 15%;
+    padding-right: 0;
+    box-sizing: content-box;
+}
+
+h3 {
+    font-family: "viner_hand_itc2";
+    color: #EFCE48;
+    font-weight: bolder;
+}
+
+p {
+    color: #FFFFFF;
+    transition: all 0.5s ease-in-out;
+}
+
+p:hover {
+    transform: scale(1.3);
+    border: #FFFFFF groove 3px;
+}
+
+
+div.carousel-span {
+    font-family: "viner_hand_itc2";
+    font-weight: bolder;
+    color: white;
+    font-size: 7vw;
+}
+
+#menu-button {
+    font-family: "viner_hand_itc2";
+    font-weight: bolder;
+    color: white;
+    font-size: 4vw;
+}
